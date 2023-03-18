@@ -29,7 +29,6 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Get runner hostname
-      shell: |
-        hostname
+      run:  hostname
 
 
